@@ -1,11 +1,11 @@
 {
-  "name": "react-router-02",
+  "name": "react-router-4-example",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1",
-    "react-router-dom": "^4.2.2",
+    "react": "16.1.1",
+    "react-dom": "16.1.1",
+    "react-router-dom": "4.2.2",
     "react-scripts": "1.0.17"
   },
   "scripts": {
