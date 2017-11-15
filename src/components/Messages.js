@@ -22,12 +22,11 @@ const Messages = ({ match }) => (
     }
     </ul>
     <Switch>
+      <Route path={`${match.url}/:id(\\d+)`} component={Message} />
       <Route
-        exact
         path={match.url}
         render={() => <h3>Please select a message</h3>}
       />
-      <Route path={`${match.url}/:id(\\d+)`} component={Message} />
     </Switch>
   </div>
 );
